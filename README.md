@@ -1,2 +1,2 @@
 # frontend-basic
-HTML, CSS, JavaScript 기초 학습 내용 정리
+HTML, CSS, JavaScript 기본 내용 학습 및 정리
