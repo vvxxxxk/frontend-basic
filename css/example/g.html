@@ -4,19 +4,28 @@
 	<meta charset="utf-8">
 	<title>HTML 문서</title>
 	<style>
-		div{
-			box-sizing: border-box;
-			width: 500px; height: 500px;
-			border: 1px solid red;
-			background-color: #aab221;
-			background-image: url(./image.png);
-			background-repeat: no-repeat;
-			background-position: center;
-			background-size: cover; /* 500px 500px; */
+		#a{
+			width: 100px; height: 50px;
+			background-color: orange;
+			float: right;
+		}
+		#b{
+			width: 100px; height: 100px;
+			background-color: royalblue;
+			float: left;
+		}
+		p{
+			clear: both;
 		}
 	</style>
 </head>
 <body>
-	<div>헬로우</div>
+	<div id="a">a</div>
+	<div id="b">b</div>
+	<p>세 번째 태그</p>
+	<p>세 번째 태그</p>
+	<p>세 번째 태그</p>
+	<p>세 번째 태그</p>
+	<p>세 번째 태그</p>
 </body>
 </html>
