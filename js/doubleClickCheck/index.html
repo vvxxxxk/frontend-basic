@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mouse Double Click Check</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div id="clickArea" class="clickArea" onmousedown="clickEvent();" oncontextmenu="return false;">
+            <p class="desc">여기를 클릭하세요!</p>
+        </div>
+        <div class="textarea-container">
+            <textarea id="textarea" readonly></textarea>
+        </div>
+        <div class="stats-container">
+            <div class="stats">
+                <div class="stat-item">
+                    <label for="count">Clicks:</label>
+                    <input id="count" type="text" value="0" readonly>
+                </div>
+                <div class="stat-item">
+                    <label for="dcCount">Fast double clicks:</label>
+                    <input id="dcCount" type="text" value="0" readonly>
+                </div>
+                <button id="reset" class="btn-reset">Reset</button>
+            </div>
+        </div>    
+        <script src="clickTracker.js"></script>
+    </body>
+</html>
