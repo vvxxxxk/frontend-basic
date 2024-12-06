@@ -22,4 +22,5 @@ HTML, CSS, JavaScript 기본 내용 학습 및 정리
 - [07. CSS position](https://github.com/vvxxxxk/frontend-basic/blob/main/css/07.%20CSS%20-%20position.md)
 - [08. CSS flexbox](https://github.com/vvxxxxk/frontend-basic/blob/main/css/08.%20CSS%20-%20flexbox.md)
 ### JS
-- [데모 01 . upbitCoinPriceLive](https://github.com/vvxxxxk/frontend-basic/tree/main/js/upbitCoinPriceLive)
+- [데모 01 . coinPriceLive](https://github.com/vvxxxxk/frontend-basic/tree/main/js/coinPriceLive)
+- [데모 02 . doubleClickCheck](https://github.com/vvxxxxk/frontend-basic/tree/main/js/doubleClickCheck)
