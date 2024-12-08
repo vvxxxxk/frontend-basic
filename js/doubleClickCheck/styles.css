@@ -49,6 +49,7 @@ body {
     max-width: 600px;
     margin: 20px auto;
     text-align: left;
+    user-select: none; /* 텍스트 선택 방지 */
 }
 
 textarea {
@@ -67,6 +68,7 @@ textarea {
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
+    user-select: none; /* 텍스트 선택 방지 */
 }
 
 .stats {
